@@ -11,7 +11,7 @@ resource "google_compute_instance" "instance1" {
     }
   }
   network_interface {
-    network = data.google_compute_network.default-network.name
+    subnetwork = google_compute_subnetwork.mtl-internal.name
     access_config {
       # Assigne une IP externe temporaire
     }
