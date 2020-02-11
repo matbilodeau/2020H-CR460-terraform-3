@@ -16,4 +16,6 @@ resource "google_compute_instance" "instance1" {
       # Assigne une IP externe temporaire
     }
   }
+
+  metadata_startup_script = "apt-get -y update && apt-get -y upgrade && apt-get -y install apache2 && systemctl start apache2"
 }

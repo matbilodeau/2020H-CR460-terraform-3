@@ -1,6 +1,6 @@
 provider "google" {
-  project = "zonedetest"
+  project = var.project_id
   credentials = "account.json"
-  region  = "northamerica-northeast1"
-  zone    = "northamerica-northeast1-a"
+  region  = "us-east1"
+  zone    = var.zone
 }
