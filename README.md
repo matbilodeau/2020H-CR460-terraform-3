@@ -9,6 +9,6 @@ Création d'un petit déploiement IaaS en plusieurs fichiers
   * https://www.terraform.io/docs/configuration/data-sources.html
 * variables.tf
   * Déclaration de variables internes
- * https://www.terraform.io/docs/configuration/variables.html
+  * https://www.terraform.io/docs/configuration/variables.html
 * output.tf
   * présente une information suite à la création de l'infrastructure
