@@ -2,7 +2,7 @@ resource "google_compute_instance" "instance1" {
   name         = "instance1"
   machine_type = "n1-standard-1"
   zone = var.zone
-#  zone         = "northamerica-northeast1-a"
+#  zone         = "us-east1-b"
   tags = ["foo", "bar"]
 
   boot_disk {
