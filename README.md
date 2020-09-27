@@ -15,3 +15,4 @@
   * https://www.terraform.io/docs/configuration/variables.html
 * output.tf
   * présente une information suite à la création de l'infrastructure
+## Compris
