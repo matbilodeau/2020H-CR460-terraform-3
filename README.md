@@ -1,17 +1,21 @@
-# 2020H-CR460-terraform-3
+# 2021- devoir cr460
 ## Création d'un petit déploiement IaaS en plusieurs modules
 
-### https://www.terraform.io/docs/modules/index.html
+### Pour plus d'information : https://www.terraform.io/docs/modules/index.html
 
+Ce projet est composé en plusieurs ressources pour mieux comprendre et faire un ségrégation des parties d'un infrastructure.
 * provider.tf
-  * regroupe les informations du fournisseur cloud
+  * informations du fournisseur cloud
 * compute.tf
-  * regroupe les informations d'instance
+  *  informations d'instance
 * data.tf
   * sources externes
-  * https://www.terraform.io/docs/configuration/data-sources.html
+  Pour plus d'information : https://www.terraform.io/docs/configuration/data-sources.html
 * variables.tf
-  * Déclaration de variables internes
+  * Déclaration de quelques variables a internes
   * https://www.terraform.io/docs/configuration/variables.html
 * output.tf
-  * présente une information suite à la création de l'infrastructure
+  * c'est une confirmation que l'instance a été crée
+
+*network.tf 
+  * informations du réseau principales et des sous-réseaux.
